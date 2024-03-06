@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 void decimalToBinary(int decimalNumber) {
     int binaryNumber[32];  // Assuming a 32-bit binary representation
     int i = 0;

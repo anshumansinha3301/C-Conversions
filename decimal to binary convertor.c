@@ -1,6 +1,6 @@
 #include <stdio.h>
 void decimalToBinary(int decimalNumber) {
-    int binaryNumber[32];  // Assuming a 32-bit binary representation
+    int binaryNumber[32]; 
     int i = 0;
 
     while (decimalNumber > 0) {
@@ -11,7 +11,6 @@ void decimalToBinary(int decimalNumber) {
 
     printf("Binary equivalent: ");
     
-    // Printing the binary representation in reverse order
     for (int j = i - 1; j >= 0; j--) {
         printf("%d", binaryNumber[j]);
     }

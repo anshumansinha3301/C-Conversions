@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 void decimalToOctal(int decimalNumber) {
     int octalNumber[32]; 
     int i = 0;

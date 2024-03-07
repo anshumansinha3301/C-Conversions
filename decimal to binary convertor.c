@@ -24,6 +24,5 @@ int main() {
     scanf("%d", &decimalNumber);
 
     decimalToBinary(decimalNumber);
-
     return 0;
 }

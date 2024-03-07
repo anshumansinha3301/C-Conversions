@@ -16,7 +16,6 @@ void decimalToBinary(int decimalNumber) {
 
     printf("\n");
 }
-
 int main() {
     int decimalNumber;
 

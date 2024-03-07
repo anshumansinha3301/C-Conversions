@@ -24,5 +24,4 @@ int main() {
     scanf("%d", &decimalNumber);
 
     decimalToOctal(decimalNumber);
-    return 0;
-}
+    return 0;}

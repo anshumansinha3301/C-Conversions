@@ -18,7 +18,6 @@ void decimalToOctal(int decimalNumber) {
 
     printf("\n");
 }
-
 int main() {
     int decimalNumber;
 

@@ -2,7 +2,6 @@
 void decimalToBinary(int decimalNumber) {
     int binaryNumber[32]; 
     int i = 0;
-
     while (decimalNumber > 0) {
         binaryNumber[i] = decimalNumber % 2;
         decimalNumber = decimalNumber / 2;

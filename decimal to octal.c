@@ -8,7 +8,6 @@ void decimalToOctal(int decimalNumber) {
         decimalNumber = decimalNumber / 8;
         i++;
     }
-
     printf("Octal equivalent: ");
     
     for (int j = i - 1; j >= 0; j--) {

@@ -13,7 +13,7 @@ void decimalToOctal(int decimalNumber) {
     for (int j = i - 1; j >= 0; j--) {
         printf("%d", octalNumber[j]);
     }
-
+ 
     printf("\n");
 }
 int main() {
